@@ -1,0 +1,37 @@
+{
+  "skill": "zhugege-insurance-scene-marketing",
+  "version": "1.0.0",
+  "source_book": "《短视频+直播：内容创作、营销推广与流量变现》 周英英 / 猪哥哥场景营销矩阵",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "用猪哥哥保险场景营销，帮我推演一下面向 40 岁外企中层中产家庭的营销画面。他年薪 50 万，妻子做自媒体，有房贷和两个孩子，最担心自己身体吃不消和大病自费药。",
+      "expected_behavior": "应激活 zhugege-insurance-scene-marketing，输出 1 张 8x8 全景矩阵，并深度生成健康大病、现金流断流、夹心挤压、突发意外 4 大高光画面，且文末保险提示保持影子般低调。",
+      "notes": "典型的中产客群标准输入。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我想写几个关于家庭财务和健康风险的保险场景文案，不要硬推销保险，要低调，针对民营小微企业主。",
+      "expected_behavior": "应激活 zhugege-insurance-scene-marketing，围绕小微企业主的债务隔离、家庭备用金与人身健康风险展开 4 大电影级切片。",
+      "notes": "小微企业主客群场景。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我对比一下中国人寿和中国平安的两款终身寿险的现金价值表，算一下 IRR 收益率。",
+      "expected_behavior": "不应激活本 skill，应交给财务计算器或产品评测工具，因为这是纯产品条款与收益率测算，非场景营销创作。",
+      "notes": "诱饵：纯保单收益率精算。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "客户刚毕业 23 岁单身程序员，月入 8000 没房没车没负债，用这个保险场景矩阵怎么推演？",
+      "expected_behavior": "应指出该客群暂无‘上有老下有小’的夹心层高压，应将 8 对关系重心调整为父母养老担忧、合租室友、宠物医疗、意外滑板通勤等单身切片，避免生硬套用大额房贷场景。",
+      "notes": "边界：单身低龄客群的关系网弹性调整。"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
