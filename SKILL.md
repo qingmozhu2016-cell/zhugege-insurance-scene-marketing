@@ -1,8 +1,12 @@
 ---
 name: zhugege-insurance-scene-marketing
+version: 1.0.0
+display_name: 猪哥哥保险场景营销
+display_name_en: Zhugege Insurance Scene Marketing
+description_zh: 家庭财务与健康风险的九宫格场景营销专家，生成4大高光切片，让保险像影子一样低调融入。
+description_en: Scenario marketing engine for family financial, health and accident risks with 4 cinematic scenes, subtly integrating insurance as a shadow anchor.
 description: |
   猪哥哥保险场景营销（九宫格场景拓展保险专属版）：专用于家庭财务风险、健康大病风险、顶梁柱现金流断流风险与突发意外风险的场景营销与短视频剧本量产。只需输入客户的职业、家庭结构、资产负债与核心焦虑，即可自动输出1张九宫格关系全景罗盘，并深度生成4大核心风险象限的电影级生活画面（含视觉道具、扎心对白与影子般低调的保单隐形提示），拒绝生硬推销。触发关键词：猪哥哥保险场景营销、保险九宫格、保险场景营销、家庭财务风险场景、健康风险剧本、低调保险文案、保险获客脚本。
-source_book: 《短视频+直播：内容创作、营销推广与流量变现》 周英英 / 猪哥哥场景矩阵
 tags: [insurance-marketing, financial-risk, health-risk, scenario-marketing, zhugege]
 ---
 
@@ -76,7 +80,7 @@ tags: [insurance-marketing, financial-risk, health-risk, scenario-marketing, zhu
 针对该客群量身打造 **4 个高光画面**，每个画面包含：
 1. **【镜头画面与核心道具】**：时间、空间、微表情与关键道具（如皱巴的穿刺建议单、房贷扣款通知、床底三无保健品）；
 2. **【原生态扎心冲突对白】**：前置致命 Hook，3 句以内，展现最刺骨的人性、算计、面子与委屈；
-3. **【低调影子提示（Shadow Anchor）】**：黑屏淡出的 1~2 句话，将痛点自然隐喻到确定的保障工具上，不提品牌、不推销。
+3. **【低调影子提示（Shadow Anchor）】：**黑屏淡出的 1~2 句话，将痛点自然隐喻到确定的保障工具上，不提品牌、不推销。
 
 ### 第四步：提供无限裂变追问接口
 在文末提示：“已为您生成核心 4 大象限高光切片。如需展开特定关系（如‘父母篇’或‘夫妻篇’），或叠加外部催化剂（如‘突然降薪30%’），可随时回复编号继续无限裂变。”
@@ -97,6 +101,6 @@ tags: [insurance-marketing, financial-risk, health-risk, scenario-marketing, zhu
 
 ## 审计信息
 
-- **版本**: v1.0.0
+- **版本**: 1.0.0
 - **名称**: zhugege-insurance-scene-marketing (猪哥哥保险场景营销)
 - **验证状态**: RIA++ 完备性检验通过
