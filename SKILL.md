@@ -1,6 +1,6 @@
 ---
 name: zhugege-insurance-scene-marketing
-version: 1.0.0
+version: 1.0.1
 display_name: 猪哥哥保险场景营销
 display_name_en: Zhugege Insurance Scene Marketing
 description_zh: 家庭财务与健康风险的九宫格场景营销专家，生成4大高光切片，让保险像影子一样低调融入。
@@ -101,6 +101,6 @@ tags: [insurance-marketing, financial-risk, health-risk, scenario-marketing, zhu
 
 ## 审计信息
 
-- **版本**: 1.0.0
+- **版本**: 1.0.1
 - **名称**: zhugege-insurance-scene-marketing (猪哥哥保险场景营销)
 - **验证状态**: RIA++ 完备性检验通过
